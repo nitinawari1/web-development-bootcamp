@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainbar{
+    width: 100%;
+    position: sticky;
+    z-index: 1;
+    background-color: #fff;
+    padding: 0 16px;
+    border-bottom: 2x solid black;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    max-width: 1200px;
+}
+.nav-leftside{
+    display:initial;
+    font-size: 30px;
+    color: rgb(51,51,51);   
+}
+.nav-leftside a{
+    font-size: 600;
+
+}
+.nav-rightside{
+    padding: 10px;
+
+}
+.nav-rightside a{
+    margin: 15px;
+}

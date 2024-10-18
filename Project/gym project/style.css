@@ -1,0 +1,21 @@
+*.{
+    padding: 0;
+    margin: 0;  
+}
+.container{
+    
+    padding: 0;
+    margin: 0;
+    
+
+}
+/* .nav{
+    display: flex;
+} */
+nav ul{
+    height: 58px;
+    display: inline ;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin: 23vw;
+}

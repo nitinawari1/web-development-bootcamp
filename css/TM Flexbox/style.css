@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:grey;
+    height:700px;
+    display: flex; /* it make its items movable*/
+  
+
+    /* Rows form  */
+    /* justify-content:space-between;  justify-content work horizonataly   it is used  on parent not on items but it work on items */
+    /* justify-content docs are perfect for this */
+    /*align-items:center ;*/ /*it's used  on parent not on child*/
+    
+    /* note - when we work on row, horizontal is main access */
+
+
+
+
+    /* column form */
+    /*flex-direction: column;*/ /* flex direction tell the direction of item . it used on parent .  when w eapply this property of justifyand align chagned  */
+   /* justify-content: start;
+    align-items: start; */
+    /* flex-wrap: wrap; if we have 10 box in row and they are not fitting in thre original size that time we use flex=wrap it send box to next row */
+}
+
+ 
+.item{
+ height: 100px;
+ flex-basis: 300px;
+ background-color:orangered ;
+ margin: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* flex-direction:column-reverse; */
+ flex: 1 1 0;
+}
+
+/* 
+.item:nth-of-type(1){
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  order:3; 
+
+
+
+}
+
+.item:nth-of-type(2){
+  flex-basis: 200px;
+  order:1;
+
+
+
+}
+.item:nth-of-type(3){
+  
+  order:2;
+
+
+
+} */
+/* .item:nth-of-type(1){
+ flex-shrink: 1;
+}
+.item:nth-of-type(2){
+  flex-shrink: 2;
+
+}
+.item:nth-of-type(3){
+  flex-shrink: 3;
+  
+} */
+
+
+/* working on indivial item  */
+
+/* .item:nth-of-type(1){
+  align-self:start;
+}
+.item:nth-of-type(2){
+  align-self:center;
+}
+.item:nth-of-type(3){
+  align-self:end;
+} */

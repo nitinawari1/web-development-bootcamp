@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(25, 0, 255);
+        }
+        header{
+            background-color: black;
+            height: 7vw;
+        }
+        .slider{
+            background-color:white;
+            height: 523px;
+            overflow: hidden;
+            margin: auto;
+            display: flex;
+           justify-content: center;
+           
+        }
+        .img1{
+/* animation: slide1 5s  infinite ; */
+            transform: translate(-25vw);
+        }
+        .img2{
+            transform: translate(0vw);
+            /* animation: slide3 5s infinite ; */
+        }
+        .img3{
+            transform: translate(0vw);
+            /* animation: slidex` */
+        }
+        @keyframes slide1 {
+            from{
+                transform: translate(-25vw);
+            }
+            to{
+                transform: translate(0vw);
+            }
+        }
+        @keyframes slide2 {
+            from{
+                transform: translate(25vw);
+            }
+            to{
+                transform: translate(0vw);
+            }
+        }
+        @keyframes slide3{
+            from{
+                transform: translate(-100vw);
+            }
+            to{
+                transform: translate(0vw);
+            }
+        }
+       
+    </style>
+</head>
+<body>
+   <header>
+
+   </header>
+   <main >
+    <div class="slider">
+   <img class="img1" src="https://source.unsplash.com/random/10×10" alt="">
+   <img class="img2" src="https://source.unsplash.com/random/10×20" alt="">
+   <img class="img3" src="https://source.unsplash.com/random/10×11" alt="">
+    </div>
+   </main>
+</body>
+</html>

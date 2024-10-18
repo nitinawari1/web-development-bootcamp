@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.red {
+    background-color: red;
+    color: whitesmoke;
+    height: 3134px;
+    width: 100%;
+    background-image: url('index.jpg');
+    background-repeat: repeat-y space; /* Choose one of these based on your requirement */
+    background-repeat: no-repeat;
+    /* background-repeat: scroll; */
+    /* background-size: 100px 100px ; */
+    background-size: 500px 500px ;
+    border: 2px solid rgb(119, 0, 255);
+    background-position: top; /* Fix the background image at the top-left corner */
+    background-attachment:scroll;
+    overflow: scroll;
+}
+
+
+.orange{
+    /* background-color: #f7c40e; */
+}
+body{
+    /* height: 334px; */
+    /* background properties that only apply on background-image set with url */
+    /* background-repeat:repeat-x ; 
+    background-repeat: repeat-y; */
+    /* background-repeat:space; space repeat in x and divide images in equal spaces  without clipping last image   */
+
+}

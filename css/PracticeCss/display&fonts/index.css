@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    display: inline-block;
+    height: 500px;
+    width: 400px;
+    background-color: red;
+    vertical-align: top;
+    /* text-align: center;
+    text-decoration: underline;
+    text-decoration: dashed underline ;
+    text-decoration:dotted underline overline;
+    text-decoration: underline dotted red;
+    text-decoration: green wavy underline; */
+}
+
+.box2{
+   display: inline-block;
+   height: 500px;
+   width: 400px;
+    background-color: orange;
+    /* font-family: 'Oswald', sans-serif; */
+  font-family:sans-serif;
+    /* text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: none; */
+    line-height: 20px;
+    /* font-size: 20px; // size of font 
+    font-weight: 100; // thinkness of font 
+     font-style:italic; // style of font eg. ittalic
+  letter-spacing: 10px; */
+ 
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    /* height: 100%; */
+}
+
+body {
+    background-color: #e7dbdbe0;
+}
+
+ul {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}   
+
+nav ul li {
+    padding: 0 14px;
+}
+ li:hover{
+    cursor:pointer;
+    
+}
+
+
+.brand img {
+    width: 50px;
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+}
+h1{
+    margin: 21px 0px 0px 20px ;
+}
+.songitemcontainer{
+    margin: 45px 0px  0px 0px;
+}
+.container {
+    background-image: url('images/bg1.webp');
+    background-size:cover;
+    min-height: 70vh;
+    background-color: rgb(6, 6, 6);
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+
+}
+
+.bottom {
+    background-color: black;
+    height: 100px;
+    position: sticky;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#songrange {
+    width: 80vw;
+}
+#songrange:hover{
+    cursor: pointer;
+}
+
+.icons {
+    margin-top: 12px;
+
+
+}
+.icons:hover{
+    cursor: pointer;
+}
+
+fa-solid {
+    width: 100px;
+    height: 100px;
+}
+
+.fas {
+    padding: 0 3px;
+}
+
+/* .songlist{
+    display: flex;
+} */
+
+.songitem {
+    margin: 10px 30px;
+    height: 50px;
+    width: 80%;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 34px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.songitem:hover{
+    transform: scale(1.1); 
+}
+
+.songitem img {
+    border-radius: 34px;
+    width: 45px;
+    padding: 0px 0px;
+    margin: 0px 25px;
+}
+
+.miniplay:hover{
+    cursor: pointer;
+}
+.songif img{
+    width: 100px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+ .songif{
+    position: absolute;
+    left: 10vw;
+ }
